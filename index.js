@@ -36,7 +36,7 @@ bot.on("message", async (ctx) => {
         await ctx.reply(`Показано картинок: ${stats.photos}\nПоказано GIF: ${stats.gifs}`);
     } else if (ctx.message.text === "Игра") {
         await ctx.reply('Откройте игру', Markup.inlineKeyboard([
-            [Markup.button.url('Играть', 'http://127.0.0.1:5500/ChearterGameBot/Public/index.html')]
+            [Markup.button.url('Играть', 'https://nadoedatel.github.io/MyCheakersGame/')]
         ]));
     } else {
         closeMenu(bot, chatId);
