@@ -5,6 +5,26 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#team-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#turn-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
 #game-board {
     display: grid;
     grid-template-columns: repeat(8, 50px);
